@@ -61,7 +61,19 @@ public class Operadores {
         String resultado3 = a==b ? "verdadeiro" : "falso";
         System.out.println(resultado3);
 
+//        operadores lógicos
+        System.out.println(" ---- operadores lógicos ------");
+        boolean condicao1=true;
+        boolean condicao2=true;
 
+        if(condicao1 && condicao2){
+            System.out.println("as duas condições são verdadeiras");
+        }
+        if (condicao1 || condicao2){
+            System.out.println("pelo menos uma das condições é verdadeira");
+        }
+
+        System.out.println("fim");
 
 
 
